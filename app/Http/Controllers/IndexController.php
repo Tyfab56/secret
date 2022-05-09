@@ -18,5 +18,11 @@ class IndexController extends Controller
         return view('frontend/index', compact('lastspots'));
     }
 
+    public function test()
+    {
+        
+
+        return view('frontend/test');
+    }
    
 }
